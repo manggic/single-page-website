@@ -1,0 +1,147 @@
+.box {
+  background-color: aliceblue;
+  width: 100%;
+  height: auto;
+}
+
+* {
+  margin: 0px;
+}
+
+.leftContent {
+  width: 25%;
+}
+
+.rightContent {
+  align-items: center;
+  width: 75%;
+  justify-content: space-around;
+  display: flex;
+}
+
+.headerTop {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  display: flex;
+}
+
+.imageContainer {
+  font-size: 31px;
+  margin-right: 10px;
+}
+
+.detailsUpper {
+  font-size: 11px;
+}
+.detailsLower {
+  font-size: 15px;
+}
+.booking,
+.call,
+.email {
+  display: flex;
+}
+
+.searchIcon:hover {
+  cursor: pointer;
+}
+
+.searchIcon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.navbar {
+  font-size: 15px;
+}
+
+.doctorImage {
+  border: 0.1px solid #80808026;
+  height: 200px;
+  width: 100%;
+}
+
+.card {
+  padding: 20px;
+}
+
+.headerBottom {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-image: url("https://media.istockphoto.com/photos/human-knee-anatomy-picture-id1256631317?b=1&k=20&m=1256631317&s=170667a&w=0&h=xVdvrGMeVrppb-ep0d873pRQ7H4ctS6ZK0-f9Up5taQ=");
+  height: 350px;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  /* background: #98d1fb; */
+}
+.info {
+  padding: 40px;
+}
+
+.myCard {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row !important;
+  height: 350px;
+  padding: 50px;
+}
+.myCard .content {
+  width: 50%;
+}
+
+.form {
+  padding: 25px;
+  background-color: azure !important;
+  -webkit-box-shadow: 2px 6px 32px 8px rgb(145 72 145);
+  -moz-box-shadow: 2px 6px 32px 8px rgba(145, 72, 145, 1);
+  box-shadow: 1px 6px 15px 1px rgb(155 136 155);
+}
+.doctors {
+  background-color: azure;
+  height: 500px;
+}
+
+.doctorCard {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.doctor {
+  box-shadow: 1px 6px 15px 1px rgb(155 136 155);
+}
+
+.card-title {
+  font-style: italic;
+  color: cadetblue;
+}
+.hospitalCard {
+  display: flex;
+  justify-content: space-around;
+}
+.hospitals {
+  background-color: aqua;
+}
+
+.hospitalImage {
+  border: 0.1px solid #80808026;
+  height: 200px;
+  width: 100%;
+}
+
+.hospital {
+  box-shadow: 1px 6px 15px 1px rgb(155 136 155);
+}
+
+.footerInfo {
+  text-align: center;
+  background-color: blueviolet;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: azure;
+}
